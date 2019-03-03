@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="MyStyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -17,22 +18,28 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
   </ul>
 
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  id="grid-im" src="cor2.jpg" alt="" >
+      <img  id="carousel-img" src="cor2.jpg" alt="" >
+      <div class="carousel-caption">
+        <h3>Welcome to the Magic World!</h3>
+      </div>
+
     </div>
     <div  class="carousel-item">
-      <img  id="grid-im" src="cor3.jpg" alt="">
+      <img  id="carousel-img" src="cor3.jpg" alt="">
+
     </div>
     <div class="carousel-item">
-      <img  id="grid-im" src="cor4.jpg" alt="" >
-    </div>
-    <div class="carousel-item">
-      <img id="grid-im" src="cor5.jpg" alt="" >
+      <img id="carousel-img" src="cor5.jpg" alt="" >
+      <div class="carousel-caption">
+        <h5>P.s.Congratulations,If you can see it</h5>
+        <h5>than you are the wizard!</h5>
+      </div>
     </div>
   </div>
 
@@ -46,49 +53,51 @@
         </a>
 
 </div>
+<div id="content">
 
-  			<div id="content">
+  <h2>You can view the movie trailer to the final book</h2>
 
-                  <h2>Ви можете перелянути трейлер до екранізації останньої книги</h2>
-                  <video width="720" height="350" controls>
-  						<source src='Гарри Поттер и Дары смерти- Часть 2. Русский трейлер 2. HD.mp4' type='video/mp4; codecs="avc1.4D401E,
+  <video width="720" height="350" controls>
+
+  <source src='Гарри Поттер и Дары смерти- Часть 2. Русский трейлер 2. HD.mp4' type='video/mp4; codecs="avc1.4D401E,
   						mp4a.40.2"'></source>
+  Your browser does not support the video tag.
+  </video>
+</div>
+<div id="Btext">
+  <h2 >Faculty</h2>
 
 
-                      Your browser does not support the video tag.
-                  </video>
-  				</div>
+</div>
+<div class="MyGrid">
 
-  			</div>
-        <div class="gridik">
-      <div class="grid-item">
-        <a href="#" id="href-in-grid">
-          <img id="grid-img"  src="Griffindor.jpg" alt="Griffindor">
-
-          <h6 id="text-after-grid-img">Griffindor</h6>
+  <div class="grid-item">
+    <a href="#" id="href-in-grid">
+      <img id="grid-img"  src="Griffindor.jpg" alt="">
+      <h6 id="Btext">Griffindor</h6>
         </a>
-      </div>
+  </div>
       <div class="grid-item">
         <a href="#" id="href-in-grid">
           <img id="grid-img" src="Slytherin.jpg" alt="Slytherin">
-          <h6 id="text-after-grid-img">Slytherin</h6>
+          <h6 id="Btext">Slytherin</h6>
         </a>
       </div>
       <div class="grid-item">
         <a href="#" id="href-in-grid">
           <img id="grid-img" src="Ravenclaw.jpg" alt="Ravenclaw">
-          <h6 id="text-after-grid-img">Ravenclaw</h6>
+          <h6 id="Btext">Ravenclaw</h6>
         </a>
       </div>
       <div class="grid-item">
         <a href="#" id="href-in-grid">
           <img id="grid-img" src="Hufflepuf.jpg" alt="Hufflepluf">
-          <h6 id="text-after-grid-img">Hafflepuf</h6>
+          <h6 id="Btext">Hafflepuf</h6>
         </a>
       </div>
-    </div>
+  </div>
     <div id="footer">
-      <strong>Права захищено Міністерством Магії</strong>
+      <strong>Copyright Ministry of Magic</strong>
     </div>
 
   </body>

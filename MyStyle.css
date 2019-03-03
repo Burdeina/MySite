@@ -7,13 +7,15 @@
   margin-bottom: 10%;
 }
 
-.carousel-item h1, h4 {
+.carousel-item h3 {
+  font-family: 'Cinzel Decorative', cursive;
   text-align: center;
   display: grid;
   font-size: 3vw;
 }
 
-.carousel-item h4 {
+.carousel-item h5 {
+  font-family: 'Cinzel Decorative', cursive;
   text-align: center;
   display: grid;
   font-size: 2vw;
@@ -21,12 +23,6 @@
 
 #carouselExampleIndicators ol .active {
   border-top: 20px solid #800000;
-}
-
-#h1-after-header {
-  font-size: 3vw;
-  margin-top: 60px;
-  text-align: center;
 }
 
 .grid-item {
@@ -40,9 +36,11 @@
   -webkit-transition: all 0.5s ease-out;
 }
 
-#grid-im {
+#carousel-img {
   display: block;
   margin:center;
+  width: inherit;
+  height:inherit;
   align-items: center;
 }
 
@@ -50,7 +48,7 @@
   transform: scale(1.1);
 }
 
-.gridik {
+.MyGrid {
   display: grid;
   padding: 15px;
   grid-gap: 5px;
@@ -60,28 +58,32 @@
   align-items: center;
 }
 
-#text-after-grid-img {
+#Btext {
+  font-family: 'Cinzel Decorative', cursive;
   text-align: center;
+  color:black;
   margin-top: 10px;
 }
 
 .text-h5 {
+  font-family: 'Cinzel Decorative', cursive;
   text-align: center;
+}
+.h2{
+  font-family: 'Cinzel Decorative', cursive;
 }
 #content{
 width: 960px;
 margin: auto;
+font-family: 'Cinzel Decorative', cursive;
 }
 
-#menu{
-	width:960px;
-	height:75px;
-}
 #footer{
-background-color:lavenderblush;
+  font-family: 'Cinzel Decorative', cursive;
+background-color:#E6E6E6;
 text-align: center;
 }
-video{
+.video{
   margin:center;
-  
+
 }
