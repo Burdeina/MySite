@@ -40,4 +40,4 @@ var resultHTML = interpretator({
 
   ]
 });
-document.querySelector("div.content div.container div.first").innerHTML += resultHTML;
+document.querySelector("div.content  div.board").innerHTML += resultHTML;

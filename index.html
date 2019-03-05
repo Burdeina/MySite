@@ -20,27 +20,31 @@
   <body>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
   <ul class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
   </ul>
 
-  <!-- The slideshow -->
   <div class="carousel-inner">
+
     <div class="carousel-item active">
       <img  id="carousel-img" src="cor2.png" alt="" >
       <div class="carousel-caption">
         <h3>Welcome to the Magic World!</h3>
       </div>
-
     </div>
+
     <div  class="carousel-item">
       <img  id="carousel-img" src="cor3.png" alt="">
-
     </div>
+
+    <div  class="carousel-item">
+      <img  id="carousel-img" src="cor4.png" alt="">
+    </div>
+
     <div class="carousel-item">
       <img id="carousel-img" src="cor5.png" alt="" >
       <div class="carousel-caption">
@@ -48,6 +52,7 @@
         <h5>than you are the wizard!</h5>
       </div>
     </div>
+
   </div>
 
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -61,13 +66,10 @@
 
 </div>
 <div class="content">
-  <div class="container">
     <div id="Btext">
       <h2 >Our best graduates</h2>
-
-
     </div>
-      <div class="first">
+      <div class="board">
         <script id="review-item-template" type="text/x-handlebars-template">
 
           {{#each array}}
@@ -75,10 +77,8 @@
 {{/each}}
         </script>
       </div>
-    </div>
-</div>
 
-<div id="video">
+ <div >
   <div id="Btext">
     <h2 >You can see the last trailer </h2>
   </div>
@@ -87,36 +87,36 @@
   						mp4a.40.2"'></source>
   Your browser does not support the video tag.
   </video>
+ </div>
+ <div id="Btext">
+   <h2 >Faculty</h2>
+ </div>
 </div>
-<div id="Btext">
-  <h2 >Faculty</h2>
-</div>
-
 <div class="MyGrid">
 
   <div class="grid-item">
-    <a href="#" id="href-in-grid">
+
       <img id="grid-img"  src="Griffindor.jpg" alt="Griffindor">
       <h6 id="Btext">Griffindor</h6>
-        </a>
+
   </div>
       <div class="grid-item">
-        <a href="#" id="href-in-grid">
+
           <img id="grid-img" src="Slytherin.jpg" alt="Slytherin">
           <h6 id="Btext">Slytherin</h6>
-        </a>
+
       </div>
       <div class="grid-item">
-        <a href="#" id="href-in-grid">
+
           <img id="grid-img" src="Ravenclaw.jpg" alt="Ravenclaw">
           <h6 id="Btext">Ravenclaw</h6>
-        </a>
+
       </div>
       <div class="grid-item">
-        <a href="#" id="href-in-grid">
+
           <img id="grid-img" src="Hufflepuf.jpg" alt="Hufflepluf">
           <h6 id="Btext">Hafflepuf</h6>
-        </a>
+        
       </div>
   </div>
     <div id="footer">
