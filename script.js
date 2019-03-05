@@ -13,7 +13,10 @@ var resultHTML = interpretator({
       ImageName: "3",
       AltText: "Alt"
     },
-
+    {
+      ImageName: "4",
+      AltText: "Alt"
+    },
     {
       ImageName: "5",
       AltText: "Alt"
@@ -24,6 +27,14 @@ var resultHTML = interpretator({
     },
     {
       ImageName: "7",
+      AltText: "Alt"
+    },
+    {
+      ImageName: "8",
+      AltText: "Alt"
+    },
+    {
+      ImageName: "9",
       AltText: "Alt"
     }
 

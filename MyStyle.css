@@ -110,6 +110,7 @@
 
 
 #footer{
+  height: 50 px;
   font-family: 'Cinzel Decorative', cursive;
 background-color:#E6E6E6;
 text-align: center;
@@ -119,10 +120,17 @@ text-align: center;
 }
 
 
-
+#video{
+ 
+margin: auto;
+}
 #carouselExampleControls {
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: auto;
+  align-items: center;
+}
+.video{
+  margin:auto;
   align-items: center;
 }

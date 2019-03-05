@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="MyStyle.css" rel="stylesheet">
     <script src="script.js"></script>
     <script type="text/javascript" src="handlebars-v4.1.0.js"></script>
@@ -30,18 +31,18 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  id="carousel-img" src="cor2.jpg" alt="" >
+      <img  id="carousel-img" src="cor2.png" alt="" >
       <div class="carousel-caption">
         <h3>Welcome to the Magic World!</h3>
       </div>
 
     </div>
     <div  class="carousel-item">
-      <img  id="carousel-img" src="cor3.jpg" alt="">
+      <img  id="carousel-img" src="cor3.png" alt="">
 
     </div>
     <div class="carousel-item">
-      <img id="carousel-img" src="cor5.jpg" alt="" >
+      <img id="carousel-img" src="cor5.png" alt="" >
       <div class="carousel-caption">
         <h5>P.s.Congratulations,If you can see it</h5>
         <h5>than you are the wizard!</h5>
@@ -70,27 +71,32 @@
         <script id="review-item-template" type="text/x-handlebars-template">
 
           {{#each array}}
-<img src="images/{{ImageName}}.jpg" alt="{{AltText}}" class="top-image">
+<img src="images/{{ImageName}}.png" alt="{{AltText}}" class="top-image">
 {{/each}}
         </script>
       </div>
-    
-
     </div>
-
 </div>
 
-
+<div id="video">
+  <div id="Btext">
+    <h2 >You can see the last trailer </h2>
+  </div>
+  <video width="100%" height="auto" controls>
+  <source src='Гарри Поттер и Дары смерти- Часть 2. Русский трейлер 2. HD.mp4' type='video/mp4; codecs="avc1.4D401E,
+  						mp4a.40.2"'></source>
+  Your browser does not support the video tag.
+  </video>
+</div>
 <div id="Btext">
   <h2 >Faculty</h2>
-
-
 </div>
+
 <div class="MyGrid">
 
   <div class="grid-item">
     <a href="#" id="href-in-grid">
-      <img id="grid-img"  src="Griffindor.jpg" alt="">
+      <img id="grid-img"  src="Griffindor.jpg" alt="Griffindor">
       <h6 id="Btext">Griffindor</h6>
         </a>
   </div>
